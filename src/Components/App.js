@@ -20,7 +20,7 @@ class App extends Component {
       return results.json();
     })
     //store the map/looped data as pictures variable,
-    //in this example the pic variable represents each time we are checking for a new picture from the api
+    //in this example the pic parameter represents each time we are checking for a new picture from the api
     //The then function returns a promise, to allow chaining multiple calls.
     .then(data => {
       let pictures = data.results.map((pic) => {
