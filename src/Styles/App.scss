@@ -1,0 +1,37 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import '../Styles/variables.scss';
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background: midnightblue;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  // object-fit: cover;
+  /* object-position: 0% 23%; */
+  display: inline-block;
+  cursor: pointer;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.results {
+  display: inline-block;
+  border-radius: 50%;
+}
+// -----------------------------------------------------------------------------
